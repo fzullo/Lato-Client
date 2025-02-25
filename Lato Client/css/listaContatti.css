@@ -21,7 +21,8 @@ table {
   margin-top: 80px;
   margin-bottom: 100px;
 }
-table th, table td {
+table th,
+table td {
   padding: 12px;
   text-align: left;
   border: 1px solid #ddd;
@@ -33,6 +34,10 @@ table th {
   font-size: 30px;
   color: #bf504f;
   font-family: "Lato", serif;
+}
+table td {
+  max-width: 300px;
+  overflow-x: auto;
 }
 table tr {
   background-color: #f9f9f9;

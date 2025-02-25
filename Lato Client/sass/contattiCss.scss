@@ -1,11 +1,12 @@
 @use '_variabiliScss' as *;
+
 section {
     background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
     width: 100%;
     min-height: 95vh;
     padding: 15px;
     margin: 0;
-  }
+}
 
 .container-form {
     background-color: #fff;
@@ -21,8 +22,7 @@ section {
 
 h1 {
     text-align: center;
-    margin-top: 100px;
-    color:$colore-primario;
+    color: $colore-primario;
     font-family: $font-testo;
     font-size: 50px;
 }
@@ -36,8 +36,8 @@ label {
     font-weight: bold;
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
-    color:$colore-navbar;
-    font-family:$font-testo;
+    color: $colore-navbar;
+    font-family: $font-testo;
 }
 
 input[type="email"],

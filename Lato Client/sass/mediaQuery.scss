@@ -44,16 +44,10 @@ $schermo-tablet: 1000px;
     }
 
     .img {
-        margin-right: 0;
-        width: 100%;
         height: 100%;
+        display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-
-    .myimg {
-        width: 60%;
-        height: 60%;
+        justify-content: center;
     }
 
     .footer {
@@ -139,6 +133,17 @@ $schermo-tablet: 1000px;
     .lato-thin {
         text-align: center;
     }
+    
+    section {
+        display: block;
+      }
+    
+
+      table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+      }
 }
 
 @media (max-width: $schermo-tablet) {
