@@ -1,0 +1,6 @@
+@Portfolio_Zullo_Taccogna_Server_HostAddress = http://localhost:5053
+
+GET {{Portfolio_Zullo_Taccogna_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
