@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: #20242d;
+  opacity: 0.9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar a:hover {
+  color: #bf504f;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbarLinks a {
+  margin-left: 10px;
+  margin-right: 70px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+header {
+  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
+  width: 100%;
+  min-height: 95vh;
+  padding: 15px;
+  margin: 0;
+}
+
+.introduzione {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+  margin-top: 100px;
+  height: 450px;
+}
+.img .myimg {
+  border-radius: 50px;
+  box-shadow: white 0px 0px 20px;
+}
+
+.icone {
+  margin-right: 210px;
+}
+
+.lato-thin {
+  font-family: "Lato", serif;
+}
+.lato-thin h1 {
+  font-size: 35px;
+}
+.lato-thin h2 {
+  font-size: 42px;
+}
+.lato-thin h3 {
+  font-size: 40px;
+}
+.lato-thin span {
+  color: #bf504f;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.logoCA {
+  height: 45px;
+  width: 200px;
+  float: left;
+  margin-top: -30px;
+  top: 50px;
+  margin-left: 10px;
+}
+
+.logoIFOA {
+  height: 130px;
+  width: 150px;
+  float: right;
+  margin-top: -70px;
+}
+
+footer {
+  background-color: #20242d;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.policy {
+  margin-left: 150px;
+}
+
+/*# sourceMappingURL=homepage.css.map */

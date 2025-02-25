@@ -1,0 +1,92 @@
+@use '_variabiliScss' as *;
+section {
+    background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+    width: 100%;
+    min-height: 95vh;
+    padding: 15px;
+    margin: 0;
+  }
+
+.container-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 100px 25% 0 25%;
+    height: 470px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color:$colore-primario;
+    font-family: $font-testo;
+    font-size: 50px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color:$colore-navbar;
+    font-family:$font-testo;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+
+    &:focus {
+        border-color: $colore-primario;
+        outline: none;
+    }
+}
+
+.form-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.form-check {
+    margin-bottom: 1rem;
+
+    &-label {
+        font-size: 0.875rem;
+    }
+
+    &-input {
+        margin-right: 0.5rem;
+    }
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    background-color: $colore-primario;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+
+    &:hover {
+        border: 2px solid $colore-primario;
+        background: $colore-testo;
+        color: black;
+    }
+}

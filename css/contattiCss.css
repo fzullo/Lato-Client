@@ -1,0 +1,91 @@
+section {
+  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
+  width: 100%;
+  min-height: 95vh;
+  padding: 15px;
+  margin: 0;
+}
+
+.container-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 100px 25% 0 25%;
+  height: 470px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: #bf504f;
+  font-family: "Lato", serif;
+  font-size: 50px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #20242d;
+  font-family: "Lato", serif;
+}
+
+input[type=email],
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+input[type=email]:focus,
+input[type=text]:focus,
+textarea:focus {
+  border-color: #bf504f;
+  outline: none;
+}
+
+.form-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.form-check {
+  margin-bottom: 1rem;
+}
+.form-check-label {
+  font-size: 0.875rem;
+}
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background-color: #bf504f;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 25%;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+button:hover {
+  border: 2px solid #bf504f;
+  background: white;
+  color: black;
+}
+
+/*# sourceMappingURL=contattiCss.css.map */

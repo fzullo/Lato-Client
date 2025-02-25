@@ -1,0 +1,140 @@
+@use '_variabiliScss' as *;
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: $colore-navbar;
+  opacity: 0.9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  a {
+    color: $colore-testo;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+
+    &:hover {
+      color: $colore-primario;
+    }
+  }
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    margin-left: 10px;
+    margin-right: 70px;
+  }
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+header {
+  background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+  width: 100%;
+  min-height: 95vh;
+  padding: 15px;
+  margin: 0;
+}
+
+.introduzione {
+  color: $colore-testo;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+  margin-top: 100px;
+  height: 450px;
+
+  .myimg {
+    border-radius: 50px;
+    box-shadow: white 0px 0px 20px;
+  }
+}
+
+.icone {
+  margin-right: 210px;
+}
+
+.lato-thin {
+  font-family: $font-testo;
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  span {
+    color: $colore-primario;
+    font-weight: bold;
+    font-size: 55px;
+  }
+}
+
+.logoCA {
+  height: 45px;
+  width: 200px;
+  float: left;
+  margin-top: -30px;
+  top: 50px;
+  margin-left: 10px;
+}
+
+.logoIFOA {
+  height: 130px;
+  width: 150px;
+  float: right;
+  margin-top: -70px;
+}
+
+footer {
+  background-color: $colore-navbar;
+  color: $colore-testo;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+
+  a {
+    color: $colore-testo;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+}
+
+.policy {
+  margin-left: 150px;
+}

@@ -1,0 +1,123 @@
+@media (max-width: 860px) {
+  .navbar {
+    position: relative;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  .navbar a {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+  .navbarLinks {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .navbarLinks a {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  header {
+    height: auto;
+    padding: 30px;
+  }
+  header h1 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .introduzione {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .img {
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .myimg {
+    width: 60%;
+    height: 60%;
+  }
+  .footer {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer a {
+    margin: 30px 0;
+  }
+  .logoCA, .logoIFOA {
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .policy {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .icone {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: 200px;
+  }
+  .icone a {
+    margin: 0 15px;
+    font-size: 15px;
+  }
+  .container-form {
+    width: 90%;
+    margin: 10% auto;
+  }
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+  .presentazione2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+  }
+  .section-chiSiamo {
+    flex-direction: column;
+    font-size: 18px;
+  }
+  .container-fototessera-zullo {
+    margin: 0;
+    margin-top: -100px;
+  }
+  .container-fototessera-taccogna {
+    margin: 0;
+  }
+  .fototessera {
+    width: 80%;
+    max-width: 250px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+  .titolo {
+    font-size: 40px;
+    margin-left: 8px;
+  }
+  .lato-thin {
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  .section-chiSiamo {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=mediaQuery.css.map */

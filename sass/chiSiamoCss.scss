@@ -1,0 +1,65 @@
+@use '_variabiliScss' as *;
+
+article {
+  background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+  width: 100%;
+  min-height: 95vh;
+  padding: 15px;
+  margin: 0;
+}
+
+.presentazione {
+  height: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+  font-family: $font-testo;
+}
+
+.section-chiSiamo {
+  display: flex;
+  align-items: center;
+  color: $colore-testo;
+  font-size: 22px;
+  font-family: $font-testo;
+  width: 80%;
+}
+
+.titolo {
+  color: $colore-primario;
+  font-family: $font-testo;
+  font-size: 50px;
+  margin-left: 3%;
+}
+
+.container-fototessera-zullo {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -150px;
+}
+
+.container-fototessera-taccogna {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: -120px;
+  margin-bottom: 50px;
+}
+
+.fototessera {
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: white 0px 0px 20px;
+}
+
+article {
+  h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    color: $colore-primario;
+    font-family: $font-testo;
+  }
+}
