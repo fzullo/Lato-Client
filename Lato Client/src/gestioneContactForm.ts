@@ -40,10 +40,6 @@ export async function caricaContatti() {
             const contatti: ContactForm[] = await response.json();
             console.log(contatti); 
 
-            const tbody = document.querySelector("#contactsTableBody");
-           
-            
-
             contatti.forEach(contatto => {
                 const row = document.createElement("tr");
 
