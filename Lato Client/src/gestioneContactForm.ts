@@ -1,3 +1,5 @@
+import { ContactForm } from "./contactForm";
+
 const form = document.getElementById("contactForm") as HTMLFormElement;
 const tbody = document.querySelector("#contactsTableBody");
 
@@ -22,6 +24,7 @@ form?.addEventListener('submit', async (event) => {
 
         if (response.ok) {
             console.log("Contatto inviato con successo!");
+            form.reset();
             caricaContatti(); 
         } else {
             console.error("Errore nell'invio del contatto.");
@@ -38,7 +41,6 @@ export async function caricaContatti() {
        
         if (response.ok) {
             const contatti: ContactForm[] = await response.json();
-            console.log(contatti); 
 
             contatti.forEach(contatto => {
                 const row = document.createElement("tr");
@@ -69,4 +71,5 @@ export async function caricaContatti() {
 }
 document.addEventListener("DOMContentLoaded", () => {   
     caricaContatti(); 
+    
 });

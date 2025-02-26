@@ -96,3 +96,4 @@ C:\Users\ileni\OneDrive\Desktop\Portfolio-Zullo-Taccogna\Lato Server\obj\Debug\n
 C:\Users\ileni\OneDrive\Desktop\Portfolio-Zullo-Taccogna\Lato Server\obj\Debug\net8.0\Portfolio-Zullo-Taccogna-Server.pdb
 C:\Users\ileni\OneDrive\Desktop\Portfolio-Zullo-Taccogna\Lato Server\obj\Debug\net8.0\Portfolio-Zullo-Taccogna-Server.genruntimeconfig.cache
 C:\Users\ileni\OneDrive\Desktop\Portfolio-Zullo-Taccogna\Lato Server\obj\Debug\net8.0\ref\Portfolio-Zullo-Taccogna-Server.dll
+C:\Users\fzullo\Desktop\Portfolio-Zullo-Taccogna-master\Lato Server\obj\Debug\net8.0\Portfolio-Zullo-Taccogna-Server.sourcelink.json

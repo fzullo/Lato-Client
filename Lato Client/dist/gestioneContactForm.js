@@ -27,6 +27,7 @@ form === null || form === void 0 ? void 0 : form.addEventListener('submit', (eve
         });
         if (response.ok) {
             console.log("Contatto inviato con successo!");
+            form.reset();
             caricaContatti();
         }
         else {
@@ -43,8 +44,6 @@ export function caricaContatti() {
             const response = yield fetch("http://localhost:5053/api/contatti");
             if (response.ok) {
                 const contatti = yield response.json();
-                console.log(contatti);
-                const tbody = document.querySelector("#contactsTableBody");
                 contatti.forEach(contatto => {
                     const row = document.createElement("tr");
                     const nomeCell = document.createElement("td");
