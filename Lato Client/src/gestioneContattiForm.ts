@@ -1,4 +1,4 @@
-import { ContactForm } from "./contactForm";
+import { ContactForm } from "./contattiForm";
 
 const form = document.getElementById("contactForm") as HTMLFormElement;
 const tbody = document.querySelector("#contactsTableBody");
