@@ -5,6 +5,11 @@ article {
   padding: 15px;
   margin: 0;
 }
+article h1 {
+  font-size: 60px;
+  color: #bf504f;
+  font-family: "Lato", serif;
+}
 
 .presentazione {
   height: auto;
@@ -51,12 +56,6 @@ article {
   max-width: 300px;
   border-radius: 50%;
   box-shadow: white 0px 0px 20px;
-}
-
-article h1 {
-  font-size: 60px;
-  color: #bf504f;
-  font-family: "Lato", serif;
 }
 
 /*# sourceMappingURL=chiSiamoCss.css.map */

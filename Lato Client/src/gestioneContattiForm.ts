@@ -8,11 +8,17 @@ form?.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const formData = new FormData(form);
+    const nome = formData.get("nome") as string;
+    const email = formData.get("email") as string;
+    const messaggio = formData.get("messaggio") as string;
+    if (!nome || !email || !messaggio) {
+        alert("Per favore, completa tutti i campi.");
+        return;
+    }
     const contatti: ContactForm = {
-        nome: formData.get("nome") as string,
-        email: formData.get("email") as string,
-        messaggio: formData.get("messaggio") as string,
+        nome, email, messaggio
     };
+
     try {
         const response = await fetch("http://localhost:5053/api/contatti", {
             method: "POST",
@@ -23,9 +29,9 @@ form?.addEventListener('submit', async (event) => {
         });
 
         if (response.ok) {
-            console.log("Contatto inviato con successo!");
+            alert("Contatto inviato con successo!");
             form.reset();
-            caricaContatti(); 
+            caricaContatti();
         } else {
             console.error("Errore nell'invio del contatto.");
         }
@@ -35,10 +41,11 @@ form?.addEventListener('submit', async (event) => {
 });
 
 
+
 export async function caricaContatti() {
     try {
         const response = await fetch("http://localhost:5053/api/contatti");
-       
+
         if (response.ok) {
             const contatti: ContactForm[] = await response.json();
 
@@ -62,14 +69,14 @@ export async function caricaContatti() {
             });
         } else {
             console.error("Errore nel caricare i contatti:", response.status);
-            alert("Errore nel caricare i contatti.");
+           
         }
     } catch (error) {
         console.error("Errore nel caricare i contatti:", error);
-        alert("Errore nel caricare i contatti.");
+       
     }
 }
-document.addEventListener("DOMContentLoaded", () => {   
-    caricaContatti(); 
-    
+document.addEventListener("DOMContentLoaded", () => {
+    caricaContatti();
+
 });

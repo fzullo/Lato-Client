@@ -2,14 +2,10 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
+  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
   margin: 0;
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
 }
 
 .navbar {
@@ -49,25 +45,27 @@ body {
 }
 
 header {
+  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
   width: 100%;
-  min-height: 80%;
+  min-height: 95vh;
   padding: 15px;
-  margin: 0;
 }
 
 .introduzione {
   color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  gap: 50px;
 }
 
-.img > .myimg {
-  display: block;
+.img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
   height: 450px;
 }
-
-.myimg {
+.img .myimg {
   border-radius: 50px;
   box-shadow: white 0px 0px 20px;
 }
@@ -76,19 +74,19 @@ header {
   margin-right: 210px;
 }
 
-.lato-thin {
+.container-introduzione {
   font-family: "Lato", serif;
 }
-.lato-thin h1 {
+.container-introduzione h1 {
   font-size: 35px;
 }
-.lato-thin h2 {
+.container-introduzione h2 {
   font-size: 42px;
 }
-.lato-thin h3 {
+.container-introduzione h3 {
   font-size: 40px;
 }
-.lato-thin span {
+.container-introduzione span {
   color: #bf504f;
   font-weight: bold;
   font-size: 55px;

@@ -5,14 +5,10 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
+  background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
   margin: 0;
   overflow-x: hidden;
-  background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
 }
 
 .navbar {
@@ -55,35 +51,37 @@ body {
 }
 
 header {
+  background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
   width: 100%;
-  min-height: 80%;
+  min-height: 95vh;
   padding: 15px;
-  margin: 0;
 }
 
 .introduzione {
   color: $colore-testo;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  
+  gap: 50px;
 }
 
-.img > .myimg {
-  display: block;
+.img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
   height: 450px;
-}
 
-.myimg {
-  border-radius: 50px;
-  box-shadow: white 0px 0px 20px;
+  .myimg {
+    border-radius: 50px;
+    box-shadow: white 0px 0px 20px;
+  }
 }
 
 .icone {
   margin-right: 210px;
 }
 
-.lato-thin {
+.container-introduzione {
   font-family: $font-testo;
 
   h1 {

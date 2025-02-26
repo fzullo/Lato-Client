@@ -39,21 +39,22 @@
     <form id="contactForm" class="container-form">
       <div class="form-group">
         <label for="exampleInputName">Inserisci il Nome</label>
-        <input type="text" id="exampleInputName" name="nome" class="form-control" placeholder="Inserisci il nome">
+        <input type="text" id="exampleInputName" name="nome" class="form-control" placeholder="Inserisci il nome" required>
       </div>
       <div class="form-group">
         <label for="exampleInputEmail">Inserisci l'email</label>
-        <input type="email" id="exampleInputEmail" name="email" class="form-control" placeholder="Inserisci l'email">
+        <input type="email" id="exampleInputEmail" name="email" class="form-control" placeholder="Inserisci l'email" required>
       </div>
       <div class="form-group">
         <label for="exampleMessage">Inserisci il tuo Messaggio</label>
         <textarea id="exampleMessage" name="messaggio" class="form-control"
-          placeholder="Inserisci il messaggio"></textarea>
+          placeholder="Inserisci il messaggio" required></textarea>
       </div>
-      <button type="submit" class="btn btn-primary" onclick="alert('Messaggio inviato!')" >Invia</button>
+      <button type="submit" class="btn btn-primary">Invia</button>
     </form>
   </section>
   <!-- Fine Form-->
+
   <!-- Footer -->
   <footer class="footer">
     <p>&copy; 2025 Code Architects srl. Tutti i diritti riservati.</p>
@@ -73,7 +74,7 @@
   </footer>
   <!-- Fine Footer -->
 
-  <script type="module" src="/dist/gestioneContactForm.js"></script>
+  <script type="module" src="/dist/gestioneContattiForm.js"></script>
 </body>
 
 </html>
