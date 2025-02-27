@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|c:\\users\\itaccogna\\desktop\\portfolio-zullo-taccogna\\lato server\\controllers\\contattiformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|solutionrelative:controllers\\contattiformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|c:\\users\\itaccogna\\desktop\\portfolio-zullo-taccogna\\lato server\\dto\\contattiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|solutionrelative:dto\\contattiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|c:\\users\\itaccogna\\desktop\\portfolio-zullo-taccogna\\lato server\\dto\\contactform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14DC1C9C-EE19-40F3-9D4A-AD265925EEA2}|Portfolio-Zullo-Taccogna-Server.csproj|solutionrelative:dto\\contactform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,27 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContattiFormController.cs",
-              "DocumentMoniker": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\Controllers\\ContattiFormController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ContattiFormController.cs",
-              "ToolTip": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\Controllers\\ContattiFormController.cs",
-              "RelativeToolTip": "Controllers\\ContattiFormController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Title": "ContactForm.cs",
+              "DocumentMoniker": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\Dto\\ContactForm.cs",
+              "RelativeDocumentMoniker": "Dto\\ContactForm.cs",
+              "ToolTip": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\Dto\\ContactForm.cs",
+              "RelativeToolTip": "Dto\\ContactForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T16:23:56.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContattiForm.cs",
-              "DocumentMoniker": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\Dto\\ContattiForm.cs",
-              "RelativeDocumentMoniker": "Dto\\ContattiForm.cs",
-              "ToolTip": "C:\\Users\\itaccogna\\Desktop\\Portfolio-Zullo-Taccogna\\Lato Server\\Dto\\ContattiForm.cs",
-              "RelativeToolTip": "Dto\\ContattiForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:30:19.195Z",
+              "WhenOpened": "2025-02-27T15:34:12.013Z",
               "EditorCaption": ""
             }
           ]
