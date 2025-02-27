@@ -1,4 +1,4 @@
-export class ContactForm {
+export class ContattiForm {
     constructor(nome, email, messaggio) {
         this.nome = nome;
         this.email = email;

@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Portfolio_Zullo_Taccogna_Server.Dto.ContactController",
+    "ContainingType": "Portfolio_Zullo_Taccogna_Server.Dto.ContattiController",
     "Method": "GetContacts",
     "RelativePath": "api/contatti",
     "HttpMethod": "GET",
@@ -10,7 +10,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Portfolio_Zullo_Taccogna_Server.Dto.ContactController",
+    "ContainingType": "Portfolio_Zullo_Taccogna_Server.Dto.ContattiController",
     "Method": "SubmitForm",
     "RelativePath": "api/contatti",
     "HttpMethod": "POST",
@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "contattiForm",
-        "Type": "Portfolio_Zullo_Taccogna_Server.Dto.ContactForm",
+        "Type": "Portfolio_Zullo_Taccogna_Server.Dto.ContattiForm",
         "IsRequired": true
       }
     ],

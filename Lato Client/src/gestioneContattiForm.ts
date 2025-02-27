@@ -1,4 +1,4 @@
-import { ContactForm } from "./contattiForm";
+import { ContattiForm } from "./contattiForm";
 
 const form = document.getElementById("contactForm") as HTMLFormElement;
 const tbody = document.querySelector("#contactsTableBody");
@@ -15,7 +15,7 @@ form?.addEventListener('submit', async (event) => {
         alert("Per favore, completa tutti i campi.");
         return;
     }
-    const contatti: ContactForm = {
+    const contatti: ContattiForm = {
         nome, email, messaggio
     };
 
@@ -47,7 +47,7 @@ export async function caricaContatti() {
         const response = await fetch("http://localhost:5053/api/contatti");
 
         if (response.ok) {
-            const contatti: ContactForm[] = await response.json();
+            const contatti: ContattiForm[] = await response.json();
 
             contatti.forEach(contatto => {
                 const row = document.createElement("tr");
