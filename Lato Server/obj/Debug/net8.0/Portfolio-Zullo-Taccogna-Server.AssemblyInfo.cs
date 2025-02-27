@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Portfolio-Zullo-Taccogna-Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648e38e3b00fcf3846afa183a28050b47f86977e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e7ef2635ba7aa458ce0f73f1a59a89440b780b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Portfolio-Zullo-Taccogna-Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Portfolio-Zullo-Taccogna-Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

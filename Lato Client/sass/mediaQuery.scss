@@ -1,5 +1,5 @@
 $schermo-mobile: 860px;
-$schermo-tablet: 1000px;
+$schermo-tablet: 1100px;
 
 @media (max-width: $schermo-mobile) {
    
@@ -94,14 +94,17 @@ $schermo-tablet: 1000px;
     }
 
     .container-form {
-        width: 90%;
-        margin: 10% auto;
-    }
-
-    button {
         width: 100%;
-        margin-left: 0;
-    }
+        max-width: 400px;
+        margin: 0 auto; 
+      }
+      
+      button {
+        width: 100%; 
+        max-width: 300px; 
+        padding: 10px;
+        margin: 5px 0;
+      }
 
     .presentazione2 {
         flex-direction: column;
@@ -144,6 +147,7 @@ $schermo-tablet: 1000px;
         width: 100%;
         overflow-x: auto;
         display: block;
+        max-width: fit-content;
         
       }
 }
@@ -152,7 +156,18 @@ $schermo-tablet: 1000px;
     .section-chiSiamo {
         width: 100%;
     }
+    button {
+        width: 100%; 
+        max-width: 400px; 
+        padding: 10px;
+        margin: 5px 0;
+      }
 
+      .container-form {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto; 
+      }
     .presentazione2 {
         flex-direction: column;
         display: flex;
@@ -161,3 +176,5 @@ $schermo-tablet: 1000px;
         padding: 20px;
     }
 }
+
+  
