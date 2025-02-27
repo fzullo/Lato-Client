@@ -49,6 +49,7 @@ export function caricaContatti() {
             const response = yield fetch("http://localhost:5053/api/contatti");
             if (response.ok) {
                 const contatti = yield response.json();
+                console.log(contatti);
                 contatti.forEach(contatto => {
                     const row = document.createElement("tr");
                     const nomeCell = document.createElement("td");

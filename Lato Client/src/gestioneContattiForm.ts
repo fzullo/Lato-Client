@@ -48,6 +48,8 @@ export async function caricaContatti() {
 
         if (response.ok) {
             const contatti: ContattiForm[] = await response.json();
+            console.log(contatti);
+            
 
             contatti.forEach(contatto => {
                 const row = document.createElement("tr");
