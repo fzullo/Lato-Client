@@ -53,7 +53,8 @@
   .footer a {
     margin: 30px 0;
   }
-  .logoCA, .logoIFOA {
+  .logoCA,
+  .logoIFOA {
     max-width: 150px;
     display: flex;
     justify-content: center;
@@ -120,6 +121,7 @@
     width: 100%;
     overflow-x: auto;
     display: block;
+    max-width: fit-content;
   }
 }
 @media (max-width: 1100px) {
