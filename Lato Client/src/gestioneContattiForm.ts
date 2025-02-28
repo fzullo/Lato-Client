@@ -11,6 +11,7 @@ form?.addEventListener('submit', async (event) => {
     const nome = formData.get("nome") as string;
     const email = formData.get("email") as string;
     const messaggio = formData.get("messaggio") as string;
+
     if (!nome || !email || !messaggio) {
         alert("Per favore, completa tutti i campi.");
         return;
@@ -48,11 +49,11 @@ export async function caricaContatti() {
 
         if (response.ok) {
             const contatti: ContattiForm[] = await response.json();
-            console.log(contatti);
+            // console.log(contatti);
             
 
             contatti.forEach(contatto => {
-                const row = document.createElement("tr");
+                const riga = document.createElement("tr");
 
                 const nomeCell = document.createElement("td");
                 nomeCell.textContent = contatto.nome;
@@ -63,11 +64,11 @@ export async function caricaContatti() {
                 const messaggioCell = document.createElement("td");
                 messaggioCell.textContent = contatto.messaggio;
 
-                row.appendChild(nomeCell);
-                row.appendChild(emailCell);
-                row.appendChild(messaggioCell);
+                riga.appendChild(nomeCell);
+                riga.appendChild(emailCell);
+                riga.appendChild(messaggioCell);
 
-                tbody?.appendChild(row);
+                tbody?.appendChild(riga);
             });
         } else {
             console.error("Errore nel caricare i contatti:", response.status);
